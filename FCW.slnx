@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/FCW.Api/FCW.Api.csproj" />
+    <Project Path="src/FCW.Application/FCW.Application.csproj" />
+    <Project Path="src/FCW.Domain/FCW.Domain.csproj" />
+    <Project Path="src/FCW.Infrastructure/FCW.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FCW.IntegrationTests/FCW.IntegrationTests.csproj" />
+    <Project Path="tests/FCW.UnitTests/FCW.UnitTests.csproj" />
+  </Folder>
+</Solution>
