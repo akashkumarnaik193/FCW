@@ -10,4 +10,4 @@ Enterprise oil & gas well design and planning application.
 - Frontend: Vue 3 + TypeScript
 - Infra: Docker, Kubernetes, Azure
 
-See `/docs` for architecture, API, database, and deployment documentation.
+See `/docs` for architecture, API, database, and deployment documenta tion.
