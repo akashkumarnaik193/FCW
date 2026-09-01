@@ -18,4 +18,6 @@ public class DesignConcept : AuditableEntity
     public string Description { get; set; } = string.Empty;
     public DesignStatus Status { get; set; } = DesignStatus.Draft;
     public int Version { get; set; } = 1;
+
+    public ICollection<WellEvent> WellEvents { get; set; } = new List<WellEvent>();
 }

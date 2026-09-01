@@ -14,6 +14,7 @@ builder.Services.AddDbContext<FcwDbContext>(options =>
 
 builder.Services.AddScoped<IWellService, WellService>();
 builder.Services.AddScoped<IDesignConceptService, DesignConceptService>();
+builder.Services.AddScoped<IWellEventService, WellEventService>();
 
 var app = builder.Build();
 

@@ -1,11 +1,5 @@
 ﻿using FCW.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FCW.Infrastructure.Persistence;
 
@@ -17,6 +11,9 @@ public class FcwDbContext : DbContext
 
     public DbSet<Well> Wells => Set<Well>();
     public DbSet<DesignConcept> DesignConcepts => Set<DesignConcept>();
+    public DbSet<WellEvent> WellEvents => Set<WellEvent>();
+    public DbSet<Casing> Casings => Set<Casing>();
+    public DbSet<UpperCompletion> UpperCompletions => Set<UpperCompletion>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

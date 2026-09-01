@@ -1,8 +1,6 @@
 ﻿
 using FCW.Application.DTOs;
 using FCW.Application.Interfaces;
-using global::FCW.Application.DTOs;
-using global::FCW.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FCW.Api.Controllers;
